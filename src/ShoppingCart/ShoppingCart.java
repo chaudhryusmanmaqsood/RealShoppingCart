@@ -14,13 +14,18 @@ public class ShoppingCart {
 
         Scanner sc = new Scanner(System.in);
         int choice = sc.nextInt();
-
+        boolean dummy = true;
         switch (choice) {
             case 1:
-               OperationOnCart.searchAndToCart();
+//               if(OperationOnCart.searchAndToCart()!= dummy);
+//                   System.out.println("Write correct spelling ");
+                OperationOnCart.searchAndToCart();
+//                System.out.println("Please provide correct spelling");
                 break;
             case 2:
                OperationOnCart.viewCart();
+               OperationOnCart.totalPrice();
+
                 break;
 
             case 0:

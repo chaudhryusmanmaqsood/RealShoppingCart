@@ -1,9 +1,9 @@
-Milk Pack: Price = 170 Rs, In-stock = 48
-Nestle Juice: Price = 210 Rs, In-stock = 45
-Dozen Eggs: Price = 180  Rs, In-stock = 87
-Coca-Cola: Price = 120 Rs, In-stock = 87
-Masala Lays: Price = 50 Rs, In-stock = 48
-Mint Cheetos: Price = 100 Rs, In-stock = 48
-Walls Ice: Cream Price = 440 Rs, In-stock = 48
-Hico Ice Cream: Price = 650 Rs, In-stock = 48
-Bread Price: = 210 Rs, In-stock = 48
+Milk Pack: Price 170 Rs, In-stock 48
+Nestle Juice: Price 210 Rs, In-stock 45
+Dozen Eggs: Price 180 Rs, In-stock 87
+Coca-Cola: Price 120 Rs, In-stock 87
+Masala Lays: Price 50 Rs, In-stock 48
+Mint Cheetos: Price 100 Rs, In-stock 48
+Walls Ice: Cream Price 440 Rs, In-stock 48
+Hico Ice Cream: Price 650 Rs, In-stock 48
+Bread: Price 210 Rs, In-stock 48
