@@ -2,7 +2,7 @@ package ShoppingCart;
 
 public class AddToCart {
     String productName;
-    String price;
+    int price;
     String inStock;
 
     public String getProductName() {
@@ -13,11 +13,11 @@ public class AddToCart {
         this.productName = productName;
     }
 
-    public String getPrice() {
+    public int getPrice() {
         return price;
     }
 
-    public void setPrice(String price) {
+    public void setPrice(int price) {
         this.price = price;
     }
 

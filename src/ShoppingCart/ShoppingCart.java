@@ -21,10 +21,12 @@ public class ShoppingCart {
 //                   System.out.println("Write correct spelling ");
                 OperationOnCart.searchAndToCart();
 //                System.out.println("Please provide correct spelling");
+//                System.out.println("Item added successfully");
                 break;
             case 2:
                OperationOnCart.viewCart();
                OperationOnCart.totalPrice();
+//               OperationOnCart.price();
 
                 break;
 

@@ -32,7 +32,7 @@ public class OperationOnCart {
                 line = scan.nextLine();
                 if (line.startsWith(userInput)) {
                     System.out.println(line);
-                    System.out.println("If you want add to cart this product press 1 : ");
+                    System.out.println("If you want add to cart this product press 1 else press any number : ");
                     int option = sc.nextInt();
                     if (option == 1) {
                         try {
@@ -76,37 +76,44 @@ public class OperationOnCart {
     public static void totalPrice() {
 
 //        int number = 0;
+         int  number = 0;
+         int sum = 0;
         String line1 = "";
         String name = "Price";
         File myFile = new File("DummyFile");
-//        PriceCalculate price = new PriceCalculate();
         try {
-        int sum = 0;
-             for(int i=1; i<=70; i++){
+//                    AddToCart price = new AddToCart();
+
+            for(int i=1; i<=70; i++){
                  System.out.print("-");
              }
-            System.out.println("\n");
+            System.out.print("\n");
             Scanner sc = new Scanner(myFile);
-            while(sc.hasNextLine()){
+            while(sc.hasNext()){
                 String line = sc.next();
                 if(line.equals(name)){
                     line1 = sc.next();
-                   int number = Integer.parseInt(line1);
-                    System.out.println("Total price is :");
+                    number = Integer.parseInt(line1);
                     sum = sum + number;
-                    System.out.println(sum);
 //                    System.out.println(Integer.sum(number));
+                  //        OperationOnCart price = new OperationOnCart();
+//                    price.setPrice(sum);
 
-//                    DummyOperations price = new DummyOperations();
+
+//                    System.out.println(sum);
+
 //                    price.setValue(sum);
                 }
             }
+            System.out.print("Your total bill is : " + sum + "\n");
+//                    System.out.println(sum);
+//                    System.out.println("Total price is :");
             sc.close();
 
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
-
+//         return sum;
                 // Add to cart
 
 //    public static void addToCart(){
@@ -141,7 +148,13 @@ public class OperationOnCart {
 //            return sc.nextLine();
 //        }
 
-
-
     }
+    public static void price(){
+////        OperationOnCart price = new OperationOnCart();
+        AddToCart price = new AddToCart();
+                    System.out.println(price.getPrice());
+////        System.out.println(price.sum);
+////
+    }
+
 }
